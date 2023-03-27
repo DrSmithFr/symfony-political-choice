@@ -1,0 +1,23 @@
+{
+  "name": "drsmithfr/symfony-political-choice",
+  "type": "library",
+  "description": "This library allows Symfony users to choose their political stance in the ongoing conflict.",
+  "keywords": ["application", "politics"],
+  "license": "UNLICENSED",
+  "authors": [
+    {
+      "name": "John Smith"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "6.2.*",
+    "symfony/console": "6.2.*",
+    "symfony/http-kernel": "6.2.*"
+  },
+
+  "autoload": {
+    "psr-4": { "DrSmithFr\\ChooseYourSide\\": "" }
+  },
+  "minimum-stability": "dev"
+}
